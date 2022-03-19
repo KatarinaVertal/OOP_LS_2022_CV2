@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.Scanner;
 
+/**
+ * dokumentacia triedy
+ */
 public class Main {
     public static void main(String[] args) {
         /*
@@ -38,6 +41,10 @@ public class Main {
         testArraySpread("test",1,2,3,4,5);
     }
 
+    /**
+     * tato funkcia vypisuje cislo
+     * @param cislo - integer cislo
+     */  //stlac Ctrl+Q a ukaze ti dokumentaciu , ctrl+p ukaze parametre
     public static void testPrimitive(int cislo){
         cislo = 10;
         System.out.println(cislo);
