@@ -35,7 +35,7 @@ public class Main {
         System.out.println(Arrays.toString(y));
 
         //
-        testArraySpread(1,2,3,4,5);
+        testArraySpread("test",1,2,3,4,5);
     }
 
     public static void testPrimitive(int cislo){
@@ -48,8 +48,8 @@ public class Main {
         System.out.println(Arrays.toString(array));
     }
     /////////////////////////////////////////////
-    public static void testArraySpread(int... array){   //bude viac operatorov vzdy 1 typu ale neviem kolko
-        array[0] = 10;
+    public static void testArraySpread(String text, int... array){   //spread operator = bude viac operatorov vzdy 1 typu ale neviem kolko; musi bzt na konci
+        System.out.println(text);
         System.out.println(Arrays.toString(array));
     }
 }
